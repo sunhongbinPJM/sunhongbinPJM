@@ -1,16 +1,44 @@
-## Hi there 👋
+## 太原理工大学校长孙宏斌的控制技术是否真的应用于控制美国电网？
 
-<!--
-**sunhongbinPJM/sunhongbinPJM** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+大家好，我是一名在美国PJM电力系统工作了十多年的工程师。八月的时候，通过国内同行的转发，我看到了GitHub用户ShiArthur04发布的一篇文章，内容涉及太原理工大学校长孙宏斌的学术造假问题。本来我是一笑而过不想理会，但是前天看到了中南大学校长“张y学”被调查的新闻，主要起因就是其获得的2014年度国家自然科学一等奖涉嫌造假，这让我看到了中国在学术打假方面的决心。就我所知，孙宏斌老师获得的2018年度国家科技进步一等奖的造假程度可以说远胜于张y学，我觉得有必要把自己所了解的一些情况讲出来，希望能对国内学术圈的风气有所改变。
 
-Here are some ideas to get you started:
+首先谈谈孙老师2018年度国家科技进步一等奖的核心成果——据称他研发的电网控制技术被“应用到美国最大的PJM电力系统”，并用于“控制包括首都华盛顿在内的13个州的电网”。我来详细说说为什么这个成果是造假的，以及孙老师是如何骗取国家科技进步一等奖的。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+早在2009年，大连理工大学一位名叫王建伟的学生就发表过一篇题为《基于相继故障的美国电网脆弱性研究》的论文。这项研究以国家自然科学基金项目“突发事件连锁反应宏观预警研究”为背景，旨在从应急管理角度探讨电网相继故障现象，并提出防止灾害蔓延的参考策略。然而，这篇看似普通的论文当年在美国社会引起了极大关注。美国国会因为担忧国家电网安全问题甚至举行了听证会，有议员公开表示：“这篇论文让所有人都震惊，它可以被理解为一种如何利用美国电网引发全国性连锁故障的指南。” 这起事件在当时颇具争议，也凸显了中美在工程科研领域合作的敏感性。基于这样的背景和国情，孙宏斌教授的电网控制技术又如何能“应用到美国最大的PJM电力系统”，并“控制包括首都华盛顿在内的13个州电网”？同时在美国方面又听不到任何对于孙老师电网控制技术所带来的安全隐患的讨论？
+
+事实上，“孙宏斌老师控制美国电网”的说法在北美电力界早已成为笑谈，我在PJM电力系统工作的十几年间从来没有听说过我们PJM电力系统是应用了孙宏斌老师的控制技术，甚至和孙宏斌老师在电网控制领域连正式合作项目都不存在过。PJM电力系统作为美国最大且最成熟的电力系统，我们用的是我们自主研发设计的控制技术与算法，并已经保证系统安全运营几十年了。为了让事实更清楚，我列出PJM电力系统多个联系方式以及ChatGPT挑选出的目前北美电力领域最知名的十位华人教授。欢迎大家自行联系，求证是否如孙老师在国家科技进步一等奖申报材料中所写的那样，其研究成果控制了美国东北部PJM电力系统13个州的电网，甚至还控制了加拿大和马来西亚的电网。
+
+Manu Asthana, PJM President and CEO, Manu.Asthana@pjm.com
+
+Michael Bryson, PJM Senior Vice President (PJM控制运营主管), Michael.Bryson@pjm.com
+
+Dave Miscavage, PJM Senior Manager (在PJM工作27年), Dave.Miscavage@pjm.com
+
+Todd Keech, PJM Senior Manager (在PJM工作14年), Todd.Keech@pjm.com
+
+Yilu Liu, University of Tennessee, liu@utk.edu
+
+Lang Tong, Cornell University, lt35@cornell.edu
+
+Le Xie, Harvard University, xie@seas.harvard.edu
+
+Alex Q. Huang, University of Texas at Austin, aqhuang@utexas.edu
+
+Joe H. Chow, Rensselaer Polytechnic Institute, chowj@rpi.edu
+
+Lei Wu, Stevens Institute of Technology, lwu11@stevens.edu
+
+Zuyi Li, Illinois Institute of Technology, lizu@illinoistech.edu
+
+Qing-Chang Zhong, Illinois Institute of Technology, zhongqc@illinoistech.edu
+
+Yan-Fei Liu, Queen’s University, yanfei.liu@queensu.ca
+
+Liuchen Chang, University of New Brunswick-Canada, lchang@unb.ca
+
+
+接下来说说这样一个问题：如此虚假的成果，究竟是怎么拿到国家科技进步一等奖的？经过与国内外业内朋友的多次讨论，我渐渐弄清了关键。国奖评选其实是非常严格的，整个评选有两轮：第一轮是网上匿名打分，评委都是和申报人同专业领域的专家，有几天的充分时间可以阅读申报人几十页的申报材料和成果细节；成功高分通过第一轮后，第二轮是面对面的答辩式评审，由十位左右与申报人不同专业但是大方向一样的评委提问并打分，每个申报人的答辩过程只有20分钟左右，也就是说评委要在20分钟内听取申报人现场做出的presentaion然后进行提问并打分。这相比于第一轮，显然是有些仓促了。不同专业的评委如何在仅仅20分钟的时间内审视申报人材料的所有细节呢，所以第一轮同专业匿名评审的重要性不言而喻。但2018年评审制度出现了个漏洞，如果申报人直接申报一等奖，就可以跳过第一轮匿名同专业评审，直接进入第二轮。而孙老师正是利用了这个漏洞——绕开熟悉他研究成果的专业评委，只需要在第二轮的20分钟内哄骗住那十位并非电力系统方向的评委即可。Presentation的时候声称在中美两国关系最微妙的时候他的研究成果控制了美国电网，整个美国工业体系的源头引擎，那一等奖不给孙老师给谁呢。而从2019年起，这个漏洞被官方及时修正，无论申报几等奖都必须经过两轮评审。也因此，孙老师那次“一等奖壮举”成为绝唱，此后连二等奖都未能再获。
+
+2014年张y学以“透明计算”摘得空缺多年的国家自然科学一等奖，团队宣称打破冯·诺依曼结构、实现运算与存储分离。不到半年，GitHub上就有人晒出演示视频里的英文提示与加拿大工程师开源的bVNC远程桌面项目一字不差，GPL协议要求公开源码并署名，却被当成“完全自主知识产权”展示，随后多人跟进打假，指责拿现成代码包装成果。那现在孙宏斌老师国家科技进步一等奖最重要的报奖成果完全子虚乌有，甚至连和美国PJM电力系统正式的相关立项都没有, 都很难评价为学术成果包装或者学术成果造假了，因为根本就没有这个成果。。。
+
+作为一名海外华人研究者，我当然希望祖国越来越强盛、科研越做越尖端。如果一个科研工作者的成果货真价实，我一定会由衷地高兴、为他骄傲。但如果金玉其外、败絮其中，我也希望每个人都不要选择沉默。科研的初心不应是包装与造假，而是真实地推动科技进步。学术环境的改变，最终要靠每一个不愿随波逐流的人去推动。
